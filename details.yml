@@ -20,13 +20,14 @@ urls:
 
 projects:
 - language: Python/Rust
-  project: fOS
+  project: fOS - Made to be Open
+  url: github/amar-laksh/focusTV
   desc:
           - An alpha-level Monolithic UNIX-like Kernel for the x86, ARM (Raspberry Pi) platform.
           - Support for ELF Parsing(with kernel parsing), PCI, Serial (ARM) and System Calls.
           - Western Notes API for PC Beeper.
           - Full Functional Support for GPIO Pins (ARM) wrapped as Arduino-compatible functions.
-  url: github.com/amar-laksh/focusTV
+
 
 experience:
 - years: 1879--1889

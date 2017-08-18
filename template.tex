@@ -119,16 +119,19 @@ $endif$
 \noindent
 $if(projects)$
 $for(projects)$
+
 \note{$projects.language$}
-\textsc {$projects.project$}
+
+\underline {\textsc {$projects.project$} } : $if(projects.url)$ {\small {\href{http://$projects.url$}{$projects.url$}} $endif$
+
 \begin{itemize}
 	$for(projects.desc)$
 		\item $projects.desc$
 	$endfor$
 \end{itemize}
-\emph{\href{http://$projects.url$}{$projects.url$}}\\
 $endfor$
 $endif$
+
 % \vfill
 
 \vspace{25pt}
