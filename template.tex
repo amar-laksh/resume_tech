@@ -79,7 +79,7 @@ $endif$
 
 % NAME
 %-------------------------------
-{\Huge $name$}\\[.2cm]
+{\Huge $name$},  {\Large $suffix$}\\[.2cm]
 
 % CONTACT
 %------------------------------
@@ -103,7 +103,7 @@ $endfor$
 
 % QUOTE
 %------------------------------
-`$quote$`
+{\it `$quote$`}
 \end{center}
 
 
@@ -113,13 +113,13 @@ $if(intro)$
 $intro$
 $endif$
 
-% AREA OF INTEREST
+% PROJECTS & RESEARCH
 %------------------------------
-\subsection*{Areas of Interest}
-$if(skills)$
+\subsection*{Projects \& Research}
+$if(projects)$
 \begin{itemize}
-    $for(skills)$
-      \item $skills$
+    $for(projects)$
+      \item $projects$
     $endfor$
 \end{itemize}
 $endif$

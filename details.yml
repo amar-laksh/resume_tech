@@ -1,23 +1,24 @@
 ---
 # Personal details
 name: Amar Lakshya
+suffix: BSc. IT
 quote: 'Analog Computers computing Digital Computers'
 address: 
-- 20/2 R.K. Puram Phase-2
+- 20/2, R.K. Puram Phase-2
 - Taj Nagari, Agra
 - India - 282001
 phone: "+91 9412506677"
 email: amar.lakshya@xaviers.edu.in
 # Insert URLs without http://
 urls:
-- github.com/amar-laksh/
-- amar-laksh.github.io/
+- github.com/amar-laksh
+- amar-laksh.github.io
 
 # Sections
 
 intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 
-skills:
+projects:
 - Aesthetics, Ethics, Metaphysics, Nihilism
 - Psychology, Ontology, Poetry, Value theory
 - Voluntarism, Tragedy, Fact–value distinction
