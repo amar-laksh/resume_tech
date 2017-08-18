@@ -19,15 +19,34 @@ urls:
   #intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 
 projects:
-- language: Python/Rust
+- language: C/ASM
   project: fOS - Made to be Open
-  url: github/amar-laksh/focusTV
+  url: github.com/amar-laksh/fOS
   desc:
           - An alpha-level Monolithic UNIX-like Kernel for the x86, ARM (Raspberry Pi) platform.
           - Support for ELF Parsing(with kernel parsing), PCI, Serial (ARM) and System Calls.
           - Western Notes API for PC Beeper.
           - Full Functional Support for GPIO Pins (ARM) wrapped as Arduino-compatible functions.
-
+- language: Python
+  project: Vitae
+  url: github.com/amar-laksh/vitae
+  desc:
+          - An Esoteric, Interpreted python-built language.
+          - Vitae's interpreter is built purely through regular expressions.
+          - Used to Introduce non-technical people to programming.
+- language: Python/Rust
+  project: FocusTV
+  url: github.com/amar-laksh/focustv
+  desc:
+          - An extremely responsive face detection system which works with Youtube and VLC Media Player.
+          - It pauses videos automatically based on a faces' proximity and direction to the screen.
+- language: Bash/Python
+  project: TryingToKnowYouBetter
+  url: github.com/amar-laksh/TryinToKnowYouBetter
+  desc:
+          - The Election Commission's website accidentally leaks a lot of Data.
+          - All the data can be accessed and analyzed to yield powerful results.
+          - Analyzing the data, one can track any registered voter's location in a 2 Kms. diameter. 
 
 experience:
 - years: 1879--1889
