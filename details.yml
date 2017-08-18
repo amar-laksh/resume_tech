@@ -3,28 +3,22 @@
 name: Amar Lakshya
 suffix: BSc. IT
 
+phone: "+91 9412506677"
+
 github: amar-laksh
+emailprefix: amar.lakshya
+emailsuffix: xaviers.edu.in
+
 
 address: 
 - 20/2, R.K. Puram Phase-2
 - Taj Nagari, Agra
 - India - 282001
 
-phone: "+91 9412506677"
-emailprefix: amar.lakshya
-emailsuffix: xaviers.edu.in
 
-# Insert URLs without http://
-urls:
-- github.com/amar-laksh
-- amar-laksh.github.io
-
-
-quote: 'Chemical Computers computing Digital Computers'
+quote: 'A Chemical Computer computing on Digital Computers'
 
 # Sections
-
-  #intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 
 projects:
 - language: C/ASM
@@ -72,15 +66,18 @@ experience:
   city: Naumburg
 
 education:
-- year: 1867
-  subject: Philosphy
-  institute: Leipzig Universität
-  city: Leipzig
-- year: 1864
-  subject: Abitur
-  institute: Schulpforta
-  city: Naumburg
-
+- year: 2014-2017
+  degree: BSc. I.T.
+  institute: St. Xaviers College, Mumbai - Autonomous
+  marks: 3.26/4.00 
+- year: 2013-2014
+  degree: 12th
+  institute: St. Peters' College, Agra
+  marks: 81.00%
+- year: 2011-2012
+  degree: 10th
+  institute: St. Peters' College, Agra
+  marks: 86.00%
 # Settings
 mainfont: Source Sans Pro
 fontsize: 10pt

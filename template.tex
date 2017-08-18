@@ -155,12 +155,16 @@ $endfor$
 $endif$
 \hspace{25pt}
 
+
+% EDUCATION
+%-------------------------------------
+
 $if(education)$
 \section*{Education}
 $for(education)$
 \noindent
-\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+\note{$education.year$}\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$}\\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.2cm]
 $endfor$
 $endif$
 
