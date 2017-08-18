@@ -2,7 +2,7 @@
 # Personal details
 name: Amar Lakshya
 suffix: BSc. IT
-quote: 'Analog Computers computing Digital Computers'
+quote: 'Chemical Computers computing Digital Computers'
 address: 
 - 20/2, R.K. Puram Phase-2
 - Taj Nagari, Agra
@@ -16,11 +16,16 @@ urls:
 
 # Sections
 
-intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+  #intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 
 projects:
 - language: Python/Rust
-  project: First Project
+  project: fOS
+  desc:
+          - An alpha-level Monolithic UNIX-like Kernel for the x86, ARM (Raspberry Pi) platform.
+          - Support for ELF Parsing(with kernel parsing), PCI, Serial (ARM) and System Calls.
+          - Western Notes API for PC Beeper.
+          - Full Functional Support for GPIO Pins (ARM) wrapped as Arduino-compatible functions.
   url: github.com/amar-laksh/focusTV
 
 experience:

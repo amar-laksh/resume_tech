@@ -116,13 +116,19 @@ $endif$
 % PROJECTS & RESEARCH
 %------------------------------
 \section*{Projects \& Research}
+\noindent
 $if(projects)$
 $for(projects)$
-\note{$projects.language$}\textsc{$projects.project$}\\
-\emph{$projects.url$}\\
+\note{$projects.language$}
+\textsc {$projects.project$}
+\begin{itemize}
+	$for(projects.desc)$
+		\item $projects.desc$
+	$endfor$
+\end{itemize}
+\emph{\href{http://$projects.url$}{$projects.url$}}\\
 $endfor$
 $endif$
-
 % \vfill
 
 \vspace{25pt}
