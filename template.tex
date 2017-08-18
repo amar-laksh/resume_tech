@@ -13,7 +13,9 @@
 
 % Enable multicolumns
 \usepackage{multicol}
-\setlength{\columnsep}{-3.5cm}
+\setlength{\columnsep}{1cm}
+%\setlength{\columnseprule}{1pt}
+%\def\columnseprulecolor{\color{black}}
 
 % Uncomment to suppress page numbers
 % \pagenumbering{gobble}
@@ -74,41 +76,45 @@ $endif$
 \begin{document}
 
 \begin{center}
+
+% NAME
+%-------------------------------
 {\Huge $name$}\\[.2cm]
-$if(urls)$
+
+% CONTACT
+%------------------------------
 \begin{multicols}{3}
-$endif$
 
-\vspace{-10pt}
 $phone$\\
-
 \href{mailto:$email$}{$email$}\\
-
-$if(urls)$
 \columnbreak
 
 $for(urls)$
 \href{http://$urls$}{$urls$}\\
 $endfor$
 \columnbreak
+
 $for(address)$
 $address$\\
 $endfor$
 
 \end{multicols}
-$endif$
-\end{center}
-\vspace{30pt}
+\vspace{12pt}
 
-\begin{center}
+% QUOTE
+%------------------------------
 `$quote$`
 \end{center}
 
 
+% INTRO
+%------------------------------
 $if(intro)$
 $intro$
 $endif$
 
+% AREA OF INTEREST
+%------------------------------
 \subsection*{Areas of Interest}
 $if(skills)$
 \begin{itemize}

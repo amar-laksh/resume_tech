@@ -5,13 +5,13 @@ quote: 'Analog Computers computing Digital Computers'
 address: 
 - 20/2 R.K. Puram Phase-2
 - Taj Nagari, Agra
-- India
+- India - 282001
 phone: "+91 9412506677"
 email: amar.lakshya@xaviers.edu.in
 # Insert URLs without http://
 urls:
-- github
-- blog
+- github.com/amar-laksh/
+- amar-laksh.github.io/
 
 # Sections
 
