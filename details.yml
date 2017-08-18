@@ -2,17 +2,25 @@
 # Personal details
 name: Amar Lakshya
 suffix: BSc. IT
-quote: 'Chemical Computers computing Digital Computers'
+
+github: amar-laksh
+
 address: 
 - 20/2, R.K. Puram Phase-2
 - Taj Nagari, Agra
 - India - 282001
+
 phone: "+91 9412506677"
-email: amar.lakshya@xaviers.edu.in
+emailprefix: amar.lakshya
+emailsuffix: xaviers.edu.in
+
 # Insert URLs without http://
 urls:
 - github.com/amar-laksh
 - amar-laksh.github.io
+
+
+quote: 'Chemical Computers computing Digital Computers'
 
 # Sections
 
@@ -23,7 +31,7 @@ projects:
   project: fOS - Made to be Open
   url: github.com/amar-laksh/fOS
   desc:
-          - An alpha-level Monolithic UNIX-like Kernel for the x86, ARM (Raspberry Pi) platform.
+          - A Monolithic UNIX-like Kernel for the x86 and ARM (Raspberry Pi) platforms.
           - ELF Parsing(with kernel parsing), PCI, Serial (ARM), Western Notes for PC Beeper and System Calls.
           - Fully Functional Support for GPIO Pins (ARM) wrapped as Arduino-compatible functions.
 - language: Python
@@ -31,13 +39,13 @@ projects:
   url: github.com/amar-laksh/vitae
   desc:
           - An Esoteric, Interpreted python-built language.
-          - Vitae's interpreter is built purely through regular expressions.
+          - Vitae's interpreter is purely built through regular expressions.
           - Used to Introduce non-technical people to programming.
 - language: Python/Rust
   project: FocusTV
   url: github.com/amar-laksh/focustv
   desc:
-          - An extremely responsive face detection system which works with Youtube and VLC Media Player.
+          - An extremely responsive face detection system which works with YouTube and VLC Media Player.
           - It pauses videos automatically based on a faces' proximity and direction to the screen.
 - language: Bash/Python
   project: TryingToKnowYouBetter
@@ -46,7 +54,9 @@ projects:
           - The Election Commission's website accidentally leaks a lot of Data.
           - All the data can be accessed and analyzed to yield powerful results.
           - Analyzing the data, one can track any registered voter's location in a 2 Kms. diameter. 
-
+skills:
+        - Linux
+        - 
 experience:
 - years: 1879--1889
   employer: Freiberufler

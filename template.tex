@@ -33,11 +33,14 @@ $endif$
 \usepackage{fontspec} 
 \usepackage{xunicode}
 \usepackage{xltxtra}
+\usepackage{fontawesome}
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+
+\newfontfamily{\FA}{FontAwesome}
 
 % MARGIN NOTES
 %--------------------------------
@@ -76,22 +79,28 @@ $endif$
 \begin{document}
 
 \begin{center}
-
+	
 % NAME
 %-------------------------------
 {\Huge $name$},  {\Large $suffix$}\\[.2cm]
 
+
+\begin{multicols}{3}
 % CONTACT
 %------------------------------
-\begin{multicols}{3}
-
 $phone$\\
-\href{mailto:$email$}{$email$}\\
 \columnbreak
 
-$for(urls)$
-\href{http://$urls$}{$urls$}\\
-$endfor$
+$if(github)$
+	\href{http://github.com/$github$}{{\FA \faGithub} $github$}
+$endif$
+
+$if(emailprefix)$
+$if(emailsuffix)$
+	\href{mailto:$emailprefix$@$emailsuffix$}{{\FA \faEnvelope} $emailprefix$}
+$endif$
+$endif$
+
 \columnbreak
 
 $for(address)$
