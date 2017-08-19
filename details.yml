@@ -32,38 +32,54 @@ projects:
   project: Vitae
   url: github.com/amar-laksh/vitae
   desc:
-          - An Esoteric, Interpreted python-built language.
-          - Vitae's interpreter is purely built through regular expressions.
-          - Used to Introduce non-technical people to programming.
+          - An Esoteric, Interpreted python-built language built entirely with regular expressions.
+- language: JavaScript
+  project: Replaycer
+  url: addons.mozilla.org/en-US/firefox/addon/replaycer
+  desc:
+         - A fun Browser Add-on to replace content on the web.
+- language: C++
+  project: Cache patch (Core), Mozilla Contribution
+  url: git log | grep amar on codebase
+  desc:
+          - Worked on patching cache entries that expire immediately 
 - language: Python/Rust
   project: FocusTV
   url: github.com/amar-laksh/focustv
   desc:
-          - An extremely responsive face detection system which works with YouTube and VLC Media Player.
-          - It pauses videos automatically based on a faces' proximity and direction to the screen.
+          - An extremely responsive face detection system which automatically pauses Media(YouTube and VLC Media Player) when you aren't looking.
 - language: Bash/Python
   project: TryingToKnowYouBetter
   url: github.com/amar-laksh/TryinToKnowYouBetter
   desc:
-          - The Election Commission's website accidentally leaks a lot of Data.
-          - All the data can be accessed and analyzed to yield powerful results.
-          - Analyzing the data, one can track any registered voter's location in a 2 Kms. diameter. 
-skills:
-        - Linux
-        - 
+          - The Election Commission's website leaks data that can be analyzed to effectively locate all registered voters.
+- language: English
+  project: Beyond Good and Evil
+  url: amar-laksh.github.io/beyond-good-and-evil
+  desc:
+          - A paper focusing on the futility of recognizing Good and Evil as deterministic forces in the world.
+- language: English
+  project: Crossed & Knotted - India's First Composite Novel
+  url: www.amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
+  desc:
+          - Co-Author of India's First Composite Novel
+            #- skills: 
+  #  os:
+          #          - Linux
+            #          - Windows
+            #  languages:
+          #          - 
+            #          - Python
+            #          - C
+            #  databases:
+          #  libraries:
+          #  frameworks: 
+
 experience:
-- years: 1879--1889
-  employer: Freiberufler
-  job: Freier Philisoph
-  city: Sils-Maria
-- years: 1869–-1879
-  employer: Universität Basel
-  job: Professor für klassische Philologie
-  city: Basel
-- years: 1867--1868
-  employer: Preußischen Artillerie
-  job: Kanonier
-  city: Naumburg
+- years: July 2017 - Sept 2017
+  employer: Apogee Tech Global Inc.
+  job: Junior Developer (Linux)
+  city: Banglore
 
 education:
 - year: 2014-2017
