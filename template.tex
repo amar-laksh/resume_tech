@@ -18,7 +18,7 @@
 %\def\columnseprulecolor{\color{black}}
 
 % Uncomment to suppress page numbers
-% \pagenumbering{gobble}
+\pagenumbering{gobble}
 
 % LANGUAGE
 %--------------------------------
@@ -144,7 +144,10 @@ $endif$
 
 \vspace{25pt}
 
-\section*{Internships}
+\begin{multicols}{2}
+% WORK EXPERIENCE
+%-----------------------------
+\section*{Work Experience}
 \noindent
 $if(experience)$
 $for(experience)$
@@ -153,20 +156,33 @@ $for(experience)$
 $experience.city$\\[.2cm]
 $endfor$
 $endif$
-\hspace{25pt}
-
 
 % EDUCATION
-%-------------------------------------
+%----------------------------
 
 $if(education)$
 \section*{Education}
 $for(education)$
 \noindent
-\note{$education.year$}\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$}\\
+	\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$} - {\scriptsize $education.year$} \\
 \emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.2cm]
 $endfor$
 $endif$
+
+\columnbreak
+% SKILLS
+%----------------------------
+\section*{References}
+$if(references)$
+\emph{$references.name$}\\
+	{$references.organization$}\\
+	{$references.designation$}\\
+	{$references.contact$}\\
+
+
+$endif$
+
+\end{multicols}
 
 $if(languages)$
 \section*{Languages}

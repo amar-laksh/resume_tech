@@ -63,23 +63,12 @@ projects:
   url: www.amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
   desc:
           - Co-Author of India's First Composite Novel
-            #- skills: 
-  #  os:
-          #          - Linux
-            #          - Windows
-            #  languages:
-          #          - 
-            #          - Python
-            #          - C
-            #  databases:
-          #  libraries:
-          #  frameworks: 
 
 experience:
 - years: July 2017 - Sept 2017
   employer: Apogee Tech Global Inc.
   job: Junior Developer (Linux)
-  city: Banglore
+  city: Bangalore
 
 education:
 - year: 2014-2017
@@ -94,6 +83,14 @@ education:
   degree: 10th
   institute: St. Peters' College, Agra
   marks: 86.00%
+
+references:
+        name: Ms. Lydia Fernandes
+        organization: St. Xaviers' College, Mumbai - Autonomous
+        designation: Professor at St. Xaviers' College
+        contact: +919930280196, lydia_fdes@yahoo.co.in
+
+
 # Settings
 mainfont: Source Sans Pro
 fontsize: 10pt
