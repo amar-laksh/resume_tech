@@ -96,6 +96,7 @@ achievements:
   desc: Student Co-ordinator of the Software Association.
 
 # Settings
+filetype: CV
 mainfont: Source Sans Pro
 fontsize: 10pt
 lang: English

@@ -92,6 +92,7 @@ references:
 
 
 # Settings
+filetype: Resume
 mainfont: Source Sans Pro
 fontsize: 10pt
 lang: English
