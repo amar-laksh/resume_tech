@@ -77,27 +77,26 @@ $endif$
 % DOCUMENT
 %--------------------------------
 \begin{document}
-
 \begin{center}
 	
 % NAME
 %-------------------------------
-{\Huge $name$},  {\large $suffix$}\\[.2cm]
+	{\Huge $name$}$if(suffix)$,  {\large $suffix$}\\[.2cm]$endif$
 
-
+\vspace{30pt}
 \begin{multicols}{3}
 % CONTACT
 %------------------------------
-$phone$\\
+$phone$
 \columnbreak
 
 $if(github)$
-	\href{http://github.com/$github$}{{\FA \faGithub} $github$}
+	\href{http://github.com/$github$}{{\FA \faGithub}$github$}
 $endif$
 
 $if(emailprefix)$
 $if(emailsuffix)$
-	\href{mailto:$emailprefix$@$emailsuffix$}{{\FA \faEnvelope} $emailprefix$}
+	\href{mailto:$emailprefix$@$emailsuffix$}{ $emailprefix$@$emailsuffix$}
 $endif$
 $endif$
 
@@ -111,9 +110,10 @@ $endfor$
 
 % QUOTE
 %------------------------------
+\vspace{10pt}
 {\it `$quote$`}
 \end{center}
-
+\vspace{10pt}
 
 % INTRO
 %------------------------------
@@ -145,13 +145,14 @@ $endif$
 \vspace{25pt}
 
 \begin{multicols}{2}
+
 % WORK EXPERIENCE
 %-----------------------------
-\section*{Work Experience}
+\section*{Experience}
 \noindent
 $if(experience)$
 $for(experience)$
-\note{$experience.years$}\textsc{$experience.employer$}\\
+\note{$experience.years$}\textbf{$experience.employer$}\\
 \emph{$experience.job$}\\
 $experience.city$\\[.2cm]
 $endfor$
@@ -170,11 +171,13 @@ $endfor$
 $endif$
 
 \columnbreak
+
 % SKILLS
 %----------------------------
-\section*{References}
+
 $if(references)$
-\emph{$references.name$}\\
+\section*{References}
+	\emph{$references.name$}\\
 	{$references.organization$}\\
 	{$references.designation$}\\
 	{$references.contact$}\\
@@ -182,13 +185,21 @@ $if(references)$
 
 $endif$
 
-\end{multicols}
 
-$if(languages)$
-\section*{Languages}
-$for(languages)$
-\emph{$languages.language$} ($languages.proficiency$)\\
+% ACHIEVEMENTS
+%-----------------------------
+
+$if(achievements)$
+\section*{Achievements}
+\noindent
+$for(achievements)$
+	\textbf{$achievements.award$} - {\scriptsize $achievements.years$}\\
+\emph{$achievements.desc$}\\\\
 $endfor$
 $endif$
+
+
+\end{multicols}
+
 
 \end{document}

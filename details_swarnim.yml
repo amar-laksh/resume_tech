@@ -1,0 +1,103 @@
+---
+# Personal details
+name: Swarnim Gupta
+suffix: 
+
+phone: "+91 7904660717"
+
+github: swarnimgupta1996
+emailprefix: swarnim.gupta96
+emailsuffix: gmail.com
+
+
+address: 
+- A - 20, Rahul Vihar,
+- Shamshabad Road
+- Agra - 282001
+
+
+quote: "An ambitious Software Engineering student aspiring for professional proficiency and exponential personal growth."
+
+# Sections
+
+projects:
+- language: JavaScript
+  project: Digital Portfolio
+  url: github.com/swarnimgupta1996/Portfolio
+  desc:
+          - An online website presenting my portfolio.
+- language: Python
+  project: PySnake
+  url: github.com/swarnimgupta1996/Snake-Game
+  desc:
+          - A nifty python-based game based on the classic Snake.
+- language: PHP
+  project: Jowl
+  url: github.com/swarnimgupta1996/jowl
+  desc:
+         - A front-end website built with CodeIgniter for a startup restraunt.
+- language: PHP
+  project: Dictionary
+  url: github.com/swarnimgupta1996/english-dictionary
+  desc:
+          - A CodeIgniter-based English Dictionary project.
+- language: PHP
+  project: Locus
+  url: github.com/swarnimgupta1996/locus
+  desc:
+          - A fun location-based food searching website.
+- language: JavaScript
+  project: OnlineTest
+  url: github.com/swarnimgupta1996/OnlineTest
+  desc:
+          - An online test web front-end using Materialize CSS.
+experience:
+- years: June 2016
+  employer: We Media Works, Gurgaon
+  job: Junior Developer - Intern
+  desc: Worked on converting static websites into dynamic ones using Wordpress.
+  city: Gurgaon
+
+- years: Feb 2017
+  employer: Udemy Course - ReactJS
+  job: Student
+  desc: Took the complete course on ReactJS.
+  city: udemy.com
+
+education:
+- year: 2014-2018
+  degree: B.Tech (S.W.E.)
+  institute: SRM University, Kattankulathur
+  marks: 9.76/10 
+- year: 2013-2014
+  degree: XIIth
+  institute: John Milton Public School - CBSE
+  marks: 73.2%
+- year: 2011-2012
+  degree: Xth
+  institute: St. Anthony's Junior College, Agra - ICSE
+  marks: 92.4%
+
+achievements:
+- years: 2015-2017
+  award: Academic Scholarship
+  desc: Scholarship awarded for two consecutive years on the basis of academic performance.
+
+- years: 2016-2017
+  award: SRM App Development Team
+  desc: Core Member of the SRMADT.
+
+- years: 2016
+  award: SRMKZILLA Club
+  desc: Part of the Developer Team.
+
+- years: 2016-2017
+  award: Student Co-ordinator
+  desc: Student Co-ordinator of the Software Association.
+
+# Settings
+mainfont: Source Sans Pro
+fontsize: 10pt
+lang: English
+geometry: a4paper, left=35mm, right=35mm, top=10mm, bottom=17mm
+---
