@@ -90,9 +90,15 @@ $endif$
 $phone$
 \columnbreak
 
+$if(blog)$
+	\href{http://$blog$}{$blog$}
+$endif$
+\vspace{6pt}
+
 $if(github)$
 	\href{http://github.com/$github$}{{\FA \faGithub}$github$}
 $endif$
+\vspace{5pt}
 
 $if(emailprefix)$
 $if(emailsuffix)$
