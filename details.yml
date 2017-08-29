@@ -77,11 +77,11 @@ education:
   institute: St. Xaviers College, Mumbai - Autonomous
   marks: 3.26/4.00 
 - year: 2013-2014
-  degree: 12th
+  degree: \uppercase\expandafter{\romannumeral 12}\textsuperscript{th}
   institute: St. Peters' College, Agra
   marks: 81.00%
 - year: 2011-2012
-  degree: 10th
+  degree: \uppercase\expandafter{\romannumeral 10}\textsuperscript{th}
   institute: St. Peters' College, Agra
   marks: 86.00%
 
