@@ -129,9 +129,10 @@ $endif$
 
 % PROJECTS & RESEARCH
 %------------------------------
+
+$if(projects)$
 \section*{Projects \& Contributions}
 \noindent
-$if(projects)$
 $for(projects)$
 
 \note{$projects.language$}
@@ -154,9 +155,9 @@ $endif$
 
 % WORK EXPERIENCE
 %-----------------------------
+$if(experience)$
 \section*{Experience}
 \noindent
-$if(experience)$
 $for(experience)$
 \note{$experience.years$}\textbf{$experience.employer$}\\
 \emph{$experience.job$}\\
