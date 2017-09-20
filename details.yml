@@ -6,12 +6,12 @@ suffix:
 phone: "+91 9412506677"
 
 github: amar-laksh
-blog: amar-laksh.github.io 
+blog: amar-laksh.github.io
 emailprefix: amar.lakshya
 emailsuffix: xaviers.edu.in
 
 
-address: 
+address:
 - 20/2, R.K. Puram Phase-2
 - Taj Nagari, Agra
 - India - 282001
@@ -29,36 +29,43 @@ projects:
           - A Monolithic UNIX-like Kernel for the x86 and ARM (Raspberry Pi) platforms.
           - ELF Parsing(with kernel parsing), PCI, Serial (ARM), Western Notes for PC Beeper and System Calls.
           - Fully Functional Support for GPIO Pins (ARM) wrapped as Arduino-compatible functions.
+
 - language: Python
   project: Vitae
   url: github.com/amar-laksh/vitae
   desc:
           - An Esoteric, Interpreted python-built language built entirely with regular expressions.
+
 - language: JavaScript
   project: Replaycer
   url: addons.mozilla.org/en-US/firefox/addon/replaycer
   desc:
          - A fun Browser Add-on to replace content on the web.
+
 - language: C++
   project: Cache patch (Core), Mozilla Contribution
   url: git log | grep amar on codebase
   desc:
           - Worked on patching cache entries that expire immediately 
+
 - language: Python/Rust
   project: FocusTV
   url: github.com/amar-laksh/focustv
   desc:
           - An extremely responsive face detection system which automatically pauses Media(YouTube and VLC Media Player) when you aren't looking.
+
 - language: Bash/Python
   project: TryingToKnowYouBetter
   url: github.com/amar-laksh/TryinToKnowYouBetter
   desc:
           - The Election Commission's website leaks data that can be analyzed to effectively locate all registered voters.
+
 - language: English
   project: Beyond Good and Evil
   url: amar-laksh.github.io/beyond-good-and-evil
   desc:
           - A paper focusing on the futility of recognizing Good and Evil as deterministic forces in the world.
+
 - language: English
   project: Crossed & Knotted - India's First Composite Novel
   url: amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
@@ -68,14 +75,14 @@ projects:
 experience:
 - years: July 2017 - Sept 2017
   employer: Apogee Tech Global Inc.
-  job: Junior Developer (Linux)
+  job: Junior Developer (Linux) - Intern
   city: Bangalore
 
 education:
 - year: 2014-2017
   degree: BSc. I.T.
   institute: St. Xaviers College, Mumbai - Autonomous
-  marks: 3.26/4.00 
+  marks: 3.26/4.00
 - year: 2013-2014
   degree: \uppercase\expandafter{\romannumeral 12}\textsuperscript{th}
   institute: St. Peters' College, Agra
