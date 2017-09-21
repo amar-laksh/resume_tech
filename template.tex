@@ -116,10 +116,10 @@ $endfor$
 
 % QUOTE
 %------------------------------
-\vspace{10pt}
+\vspace{5pt}
 {\it `$quote$`}
 \end{center}
-\vspace{10pt}
+\vspace{5pt}
 
 % INTRO
 %------------------------------
@@ -149,7 +149,7 @@ $endif$
 
 % \vfill
 
-\vspace{25pt}
+\vspace{15pt}
 
 \begin{multicols}{2}
 
@@ -161,7 +161,7 @@ $if(experience)$
 $for(experience)$
 \note{$experience.years$}\textbf{$experience.employer$}\\
 \emph{$experience.job$}\\
-$experience.city$\\[.2cm]
+$experience.city$
 $endfor$
 $endif$
 
@@ -173,7 +173,7 @@ $if(education)$
 $for(education)$
 \noindent
 	\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$} - {\scriptsize $education.year$} \\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.2cm]
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.1cm]
 $endfor$
 $endif$
 
