@@ -60,22 +60,30 @@ projects:
   desc:
           - The Election Commission's website leaks data that can be analyzed to effectively locate all registered voters.
 
-- language: English
-  project: Beyond Good and Evil
-  url: amar-laksh.github.io/beyond-good-and-evil
-  desc:
-          - A paper focusing on the futility of recognizing Good and Evil as deterministic forces in the world.
 
-- language: English
+publications:
+- year: 2015
   project: Crossed & Knotted - India's First Composite Novel
   url: amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
   desc:
           - Co-Author of India's First Composite Novel
 
+- year: 2017
+  project: Beyond Good and Evil
+  url: amar-laksh.github.io/beyond-good-and-evil
+  desc:
+          - A paper focusing on the futility of recognizing Good and Evil as deterministic forces in the world.
+
+
 experience:
 - years: July 2017 - Sept 2017
   employer: Apogee Tech Global Inc.
   job: Junior Developer (Linux) - Intern
+  city: Bangalore
+
+- years: Dec 2017 - present
+  employer: Nymble Labs
+  job: Software Engineer (Lead)
   city: Bangalore
 
 education:

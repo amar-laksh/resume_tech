@@ -83,7 +83,7 @@ $endif$
 %-------------------------------
 	{\Huge $name$}$if(suffix)$,  {\large $suffix$}\\[.2cm]$endif$
 
-\vspace{10pt}
+\vspace{30pt}
 \begin{multicols}{3}
 % CONTACT
 %------------------------------
@@ -119,7 +119,7 @@ $endfor$
 \vspace{5pt}
 {\it `$quote$`}
 \end{center}
-\vspace{2pt}
+\vspace{5pt}
 
 % INTRO
 %------------------------------
@@ -146,28 +146,10 @@ $for(projects)$
 \end{itemize}
 $endfor$
 $endif$
-% \vfill
-
-
-$if(publications)$
-\section*{Publications}
-\noindent
-$for(publications)$
-
-\note{$publications.year$}
-
-\underline{\textsc {$publications.project$} }: $if(publications.url)$ {\small {\href{http://$publications.url$}{$publications.url$}} $endif$
-
-\begin{itemize}
-	$for(publications.desc)$
-		\item $publications.desc$
-	$endfor$
-\end{itemize}
-$endfor$
-$endif$
 
 % \vfill
-\vspace{17pt}
+
+\vspace{15pt}
 
 \begin{multicols}{2}
 
@@ -180,8 +162,6 @@ $for(experience)$
 \note{$experience.years$}\textbf{$experience.employer$}\\
 \emph{$experience.job$}\\
 $experience.city$
-
-
 $endfor$
 $endif$
 
@@ -199,20 +179,7 @@ $endif$
 
 \columnbreak
 
-% ACHIEVEMENTS
-%-----------------------------
-
-$if(achievements)$
-\section*{Achievements}
-\noindent
-$for(achievements)$
-	\textbf{$achievements.award$} - {\scriptsize $achievements.years$}\\
-\emph{$achievements.desc$}\\\\
-$endfor$
-$endif$
-
-
-% REFERENCES
+% SKILLS
 %----------------------------
 
 $if(references)$
@@ -225,6 +192,18 @@ $if(references)$
 
 $endif$
 
+
+% ACHIEVEMENTS
+%-----------------------------
+
+$if(achievements)$
+\section*{Achievements}
+\noindent
+$for(achievements)$
+	\textbf{$achievements.award$} - {\scriptsize $achievements.years$}\\
+\emph{$achievements.desc$}\\\\
+$endfor$
+$endif$
 
 
 \end{multicols}
