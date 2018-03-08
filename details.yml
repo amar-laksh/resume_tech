@@ -79,11 +79,13 @@ experience:
 - years: July 2017 - Sept 2017
   employer: Apogee Tech Global Inc.
   job: Junior Developer (Linux) - Intern
+  desc: Developed a complete, cross-platform React-based Anti-virus suite.
   city: Bangalore
 
 - years: Dec 2017 - Present
   employer: Nymble Labs
   job: Software Engineer (Lead)
+  desc: Designed the software stack, software architecture and programmed the codebase using C++ and ROS2 for an Automated Cook.
   city: Bangalore
 
 education:
