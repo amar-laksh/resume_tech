@@ -46,7 +46,7 @@ projects:
   project: Cache patch (Core), Mozilla Contribution
   url: git log | grep amar on codebase
   desc:
-          - Worked on patching cache entries that expire immediately 
+          - Worked on patching cache entries that expire immediately
 
 - language: Python/Rust
   project: FocusTV

@@ -30,7 +30,7 @@ $endif$
 
 % TYPOGRAPHY
 %--------------------------------
-\usepackage{fontspec} 
+\usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
 \usepackage{fontawesome}
@@ -52,18 +52,18 @@ $endif$
 
 % HEADINGS
 %--------------------------------
-\usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
-\sectionfont{\rmfamily\mdseries} 
-\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
-\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
 
 % PDF SETUP
 %--------------------------------
 \usepackage{hyperref}
 \hypersetup
 {
-  pdfauthor={$name$},
+	pdfauthor={$name$},
   pdfsubject={$name$'s $filetype$},
   pdftitle={$name$'s $filetype$},
   colorlinks, breaklinks, xetex, bookmarks,
@@ -78,46 +78,46 @@ $endif$
 %--------------------------------
 \begin{document}
 \begin{center}
-	
-% NAME
-%-------------------------------
+
+	% NAME
+	%-------------------------------
 	{\Huge $name$}$if(suffix)$,  {\large $suffix$}\\[.2cm]$endif$
 
-\vspace{10pt}
-\begin{multicols}{3}
-% CONTACT
-%------------------------------
-$phone$
-\columnbreak
+	\vspace{10pt}
+	\begin{multicols}{3}
+		% CONTACT
+		%------------------------------
+		$phone$
+		\columnbreak
 
-$if(blog)$
-	\href{http://$blog$}{$blog$}
-$endif$
-\vspace{6pt}
+		$if(blog)$
+		\href{http://$blog$}{{\FA \faRss}$blog$}
+		$endif$
+		\vspace{6pt}
 
-$if(github)$
-	\href{http://github.com/$github$}{{\FA \faGithub}$github$}
-$endif$
-\vspace{5pt}
+		$if(github)$
+		\href{http://github.com/$github$}{{\FA \faGithub}$github$}
+		$endif$
+		\vspace{5pt}
 
-$if(emailprefix)$
-$if(emailsuffix)$
-	\href{mailto:$emailprefix$@$emailsuffix$}{ $emailprefix$@$emailsuffix$}
-$endif$
-$endif$
+		$if(emailprefix)$
+		$if(emailsuffix)$
+		\href{mailto:$emailprefix$@$emailsuffix$}{{\FA \faEnvelope}$emailprefix$@$emailsuffix$}
+		$endif$
+		$endif$
 
-\columnbreak
+		\columnbreak
 
-$for(address)$
-$address$\\
-$endfor$
+		$for(address)$
+		$address$\\
+		$endfor$
 
-\end{multicols}
+	\end{multicols}
 
-% QUOTE
-%------------------------------
-\vspace{1pt}
-{\it `$quote$`}
+	% QUOTE
+	%------------------------------
+	\vspace{1pt}
+	{\it `$quote$`}
 \end{center}
 \vspace{1pt}
 
@@ -140,9 +140,9 @@ $for(projects)$
 \underline {\textsc {$projects.project$} } : $if(projects.url)$ {\small {\href{http://$projects.url$}{$projects.url$}} $endif$
 
 \begin{itemize}
-	$for(projects.desc)$
-		\item $projects.desc$
-	$endfor$
+		$for(projects.desc)$
+	\item $projects.desc$
+		$endfor$
 \end{itemize}
 $endfor$
 $endif$
@@ -159,9 +159,9 @@ $for(publications)$
 \underline{\textsc {$publications.project$} }: $if(publications.url)$ {\small {\href{http://$publications.url$}{$publications.url$}} $endif$
 
 \begin{itemize}
-	$for(publications.desc)$
-		\item $publications.desc$
-	$endfor$
+		$for(publications.desc)$
+	\item $publications.desc$
+		$endfor$
 \end{itemize}
 $endfor$
 $endif$
@@ -178,9 +178,9 @@ $for(experience)$
 	% \emph{$experience.job$}\\
 	\underline{\textsc {$experience.job$}}: {\small \textsc{$experience.employer$} ($experience.city$)}
 	\begin{itemize}
-		$for(experience.desc)$
-			\item $experience.desc$
-		$endfor$
+			$for(experience.desc)$
+		\item $experience.desc$
+			$endfor$
 	\end{itemize}
 $endfor$
 $endif$
@@ -191,45 +191,46 @@ $endif$
 
 \begin{multicols}{2}
 
-% EDUCATION
-%----------------------------
-
-$if(education)$
-\section*{Education}
-$for(education)$
-\noindent
+	% EDUCATION
+	%----------------------------
+	$if(education)$
+	\section*{Education}
+	$for(education)$
+	\noindent
 	\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$} - {\scriptsize $education.year$} \\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.1cm]
-$endfor$
-$endif$
+	\emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.1cm]
+	$endfor$
+	$endif$
 
-\columnbreak
+	%	\vfill\null
+	%	\columnbreak
 
-% ACHIEVEMENTS
-%-----------------------------
+	% ACHIEVEMENTS
+	%-----------------------------
 
-$if(achievements)$
-\section*{Achievements}
-\noindent
-$for(achievements)$
+	$if(achievements)$
+	\section*{Achievements}
+	\noindent
+	$for(achievements)$
 	\textbf{$achievements.award$} - {\scriptsize $achievements.years$}\\
-\emph{$achievements.desc$}\\\\
-$endfor$
-$endif$
+	\emph{$achievements.desc$}\\\\
+	$endfor$
+	\columnbreak
+	$endif$
 
+	% REFERENCES
+	%----------------------------
 
-% REFERENCES
-%----------------------------
-
-$if(references)$
-\section*{References}
+	$if(references)$
+	\section*{References}
+	\noindent
+	$for(references)$
 	\emph{$references.name$}\\
 	{$references.organization$}\\
 	{$references.designation$}\\
 	{$references.contact$}\\
-
-
-$endif$
+	$endfor$
+	$endif$
 
 
 
