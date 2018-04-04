@@ -35,18 +35,21 @@ projects:
   url: github.com/amar-laksh/vitae
   desc:
           - An Esoteric, Interpreted python-built language built entirely with regular expressions.
+          - Designed to introduce non-technical people to programming.
 
 - language: JavaScript
   project: Replaycer
   url: addons.mozilla.org/en-US/firefox/addon/replaycer
   desc:
          - A fun Browser Add-on to replace content on the web.
+         - Able to replace live content like twitter feeds etc.
 
 - language: C++
   project: Cache patch (Core), Mozilla Contribution
   url: git log | grep amar on codebase
   desc:
-          - Worked on patching cache entries that expire immediately
+          - Worked on patching cache entries that expire immediately in the Cache core of the Mozilla codebase.
+          - Affects all Mozilla programs including Firefox and Thunderbird.
 
 - language: Python/Rust
   project: FocusTV
@@ -79,13 +82,13 @@ experience:
 - years: July 2017 - Sept 2017
   employer: Apogee Tech Global Inc.
   job: Junior Developer (Linux) - Intern
-  desc: Developed a complete, cross-platform React-based Anti-virus suite.
+  desc: Developed a complete, cross-platform React-based Anti-virus and Anti-malware suite.
   city: Bangalore
 
 - years: Dec 2017 - Present
   employer: Nymble Labs
   job: Software Engineer (Lead)
-  desc: Designed the software stack, software architecture and programmed the codebase using C++ and ROS2 for an Automated Cook.
+  desc: Designed the software stack, software architecture and programmed the codebase using C++, Python and ROS2 for an Automated Cook.
   city: Bangalore
 
 education:
