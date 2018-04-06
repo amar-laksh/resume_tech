@@ -133,13 +133,13 @@ $endif$
 %------------------------------
 
 $if(projects)$
-\section*{Projects \& Contributions}
+\section*{{\FA \faHandshake} Projects \& Contributions}
 \noindent
 $for(projects)$
 
 \note{$projects.language$}
 
-\underline {\textsc {$projects.project$} } : $if(projects.url)$ {\hfill \small {\href{http://$projects.url$}{$projects.url$}} $endif$
+\underline {\textsc {$projects.project$} } : $if(projects.url)$ {\hfill \small \it {\href{http://$projects.url$}{$projects.url$}} $endif$
 
 \begin{itemize}
 		$for(projects.desc)$
@@ -151,13 +151,13 @@ $endif$
 % \vfill
 
 $if(publications)$
-\section*{Publications}
+\section*{{\FA \faBook} Publications}
 \noindent
 $for(publications)$
 
 \note{$publications.year$}
 
-\underline{\textsc {$publications.project$} }: $if(publications.url)$ {\hfill \small {\href{http://$publications.url$}{$publications.url$}} $endif$
+\underline{\textsc {$publications.project$} }: $if(publications.url)$ {\hfill \small \it {\href{http://$publications.url$}{$publications.url$}} $endif$
 
 \begin{itemize}
 		$for(publications.desc)$
@@ -170,13 +170,13 @@ $endif$
 % WORK EXPERIENCE
 %-----------------------------
 $if(experience)$
-\section*{Work Experience}
+\section*{{\FA \faUsers} Work Experience}
 \noindent
 $for(experience)$
 
 	\note{$experience.years$}
 	% \emph{$experience.job$}\\
-	\underline{\textsc {$experience.job$}}: {\hfill \small \textsc{$experience.employer$} ($experience.city$)}
+	\underline{\textsc {$experience.job$}}: {\hfill \small \it{$experience.employer$} ($experience.city$)}
 	\begin{itemize}
 			$for(experience.desc)$
 		\item $experience.desc$
@@ -194,7 +194,7 @@ $endif$
 	% EDUCATION
 	%----------------------------
 	$if(education)$
-	\section*{Education}
+	\section*{{\FA \faGraduationCap} Education}
 	$for(education)$
 	\noindent
 	\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$} - {\scriptsize $education.year$} \\
@@ -222,7 +222,7 @@ $endif$
 	%----------------------------
 
 	$if(references)$
-	\section*{References}
+	\section*{{\FA \faBookmark} References}
 	\noindent
 	$for(references)$
 	\emph{$references.name$}\\
