@@ -66,7 +66,7 @@ projects:
 
 publications:
 - year: 2015
-  project: Crossed & Knotted - India's First Composite Novel
+  project: Crossed & Knotted
   url: amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
   desc:
           - Co-Author of India's First Composite Novel
@@ -116,6 +116,6 @@ references:
 filetype: Resume
 mainfont: Source Sans Pro
 fontsize: 10pt
-lang: English
+lang: en-US
 geometry: a4paper, left=35mm, right=35mm, top=10mm, bottom=17mm
 ---

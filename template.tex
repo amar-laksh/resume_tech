@@ -126,6 +126,9 @@ $if(intro)$
 $intro$
 $endif$
 
+
+
+
 % PROJECTS & RESEARCH
 %------------------------------
 
@@ -136,7 +139,7 @@ $for(projects)$
 
 \note{$projects.language$}
 
-\underline {\textsc {$projects.project$} } : $if(projects.url)$ {\small {\href{http://$projects.url$}{$projects.url$}} $endif$
+\underline {\textsc {$projects.project$} } : $if(projects.url)$ {\hfill \small {\href{http://$projects.url$}{$projects.url$}} $endif$
 
 \begin{itemize}
 		$for(projects.desc)$
@@ -147,7 +150,6 @@ $endfor$
 $endif$
 % \vfill
 
-
 $if(publications)$
 \section*{Publications}
 \noindent
@@ -155,7 +157,7 @@ $for(publications)$
 
 \note{$publications.year$}
 
-\underline{\textsc {$publications.project$} }: $if(publications.url)$ {\small {\href{http://$publications.url$}{$publications.url$}} $endif$
+\underline{\textsc {$publications.project$} }: $if(publications.url)$ {\hfill \small {\href{http://$publications.url$}{$publications.url$}} $endif$
 
 \begin{itemize}
 		$for(publications.desc)$
@@ -167,7 +169,6 @@ $endif$
 
 % WORK EXPERIENCE
 %-----------------------------
-
 $if(experience)$
 \section*{Work Experience}
 \noindent
@@ -175,7 +176,7 @@ $for(experience)$
 
 	\note{$experience.years$}
 	% \emph{$experience.job$}\\
-	\underline{\textsc {$experience.job$}}: {\small \textsc{$experience.employer$} ($experience.city$)}
+	\underline{\textsc {$experience.job$}}: {\hfill \small \textsc{$experience.employer$} ($experience.city$)}
 	\begin{itemize}
 			$for(experience.desc)$
 		\item $experience.desc$
