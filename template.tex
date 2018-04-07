@@ -133,13 +133,15 @@ $endif$
 %------------------------------
 
 $if(projects)$
-\section*{{\FA \faHandshake} Projects \& Contributions}
+\section*{Projects \& Contributions}
+\vspace{-15pt}
+\rule{20cm}{0.04cm}%
 \noindent
 $for(projects)$
 
 \note{$projects.language$}
 
-\underline {\textsc {$projects.project$} } : $if(projects.url)$ {\hfill \small \it {\href{http://$projects.url$}{$projects.url$}} $endif$
+\underline {\textsc {$projects.project$} } : $if(projects.url)$ {\small \it {\href{http://$projects.url$}{$projects.url$}} $endif$
 
 \begin{itemize}
 		$for(projects.desc)$
@@ -151,13 +153,15 @@ $endif$
 % \vfill
 
 $if(publications)$
-\section*{{\FA \faBook} Publications}
+\section*{Publications}
+\vspace{-15pt}
+\rule{20cm}{0.04cm}%
 \noindent
 $for(publications)$
 
 \note{$publications.year$}
 
-\underline{\textsc {$publications.project$} }: $if(publications.url)$ {\hfill \small \it {\href{http://$publications.url$}{$publications.url$}} $endif$
+\underline{\textsc {$publications.project$} }: $if(publications.url)$ {\small \it {\href{http://$publications.url$}{$publications.url$}} $endif$
 
 \begin{itemize}
 		$for(publications.desc)$
@@ -170,13 +174,15 @@ $endif$
 % WORK EXPERIENCE
 %-----------------------------
 $if(experience)$
-\section*{{\FA \faUsers} Work Experience}
+\section*{Work Experience}
+\vspace{-17pt}
+\rule{20cm}{0.04cm}%
 \noindent
 $for(experience)$
 
 	\note{$experience.years$}
 	% \emph{$experience.job$}\\
-	\underline{\textsc {$experience.job$}}: {\hfill \small \it{$experience.employer$} ($experience.city$)}
+	\underline{\textsc {$experience.job$}}: {\small \it{$experience.employer$} ($experience.city$)}
 	\begin{itemize}
 			$for(experience.desc)$
 		\item $experience.desc$
@@ -194,7 +200,9 @@ $endif$
 	% EDUCATION
 	%----------------------------
 	$if(education)$
-	\section*{{\FA \faGraduationCap} Education}
+	\section*{Education}
+\vspace{-15pt}
+\rule{20cm}{0.04cm}%
 	$for(education)$
 	\noindent
 	\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$} - {\scriptsize $education.year$} \\
@@ -222,7 +230,7 @@ $endif$
 	%----------------------------
 
 	$if(references)$
-	\section*{{\FA \faBookmark} References}
+	\section*{References}
 	\noindent
 	$for(references)$
 	\emph{$references.name$}\\
