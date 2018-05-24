@@ -12,9 +12,9 @@ emailsuffix: xaviers.edu.in
 
 
 address:
-- 20/2, R.K. Puram Phase-2
-- Taj Nagari, Agra
-- India - 282001
+- 1006, Pavan Enclave
+- Indiranagar, Bangalore
+- India - 560008
 
 
 quote: 'A Chemical Computer computing on Digital Computers'
@@ -79,17 +79,18 @@ publications:
 
 
 experience:
+- years: Dec 2017 - Present
+  employer: Nymble Labs
+  job: Software Engineer (Lead)
+  desc: Designed the software stack, software architecture and programmed the codebase using C++, Python and ROS2 for an Automated Cook.
+  city: Bangalore
+
 - years: July 2017 - Sept 2017
   employer: Apogee Tech Global Inc.
   job: Junior Developer (Linux) - Intern
   desc: Developed a complete, cross-platform React-based Anti-virus and Anti-malware suite.
   city: Bangalore
 
-- years: Dec 2017 - Present
-  employer: Nymble Labs
-  job: Software Engineer (Lead)
-  desc: Designed the software stack, software architecture and programmed the codebase using C++, Python and ROS2 for an Automated Cook.
-  city: Bangalore
 
 education:
 - year: 2014-2017
