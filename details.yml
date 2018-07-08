@@ -69,7 +69,7 @@ publications:
   project: Crossed & Knotted
   url: amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
   desc:
-          - Co-Author of India's First Composite Novel
+          - Co-Author of Limca Book of Records winning - India's First Composite Novel - written in collaboration with 12 Authors.
 
 - year: 2017
   project: Beyond Good and Evil
@@ -81,8 +81,8 @@ publications:
 experience:
 - years: Dec 2017 - Present
   employer: Nymble Labs
-  job: Software Engineer (Lead)
-  desc: Designed the software stack, software architecture and programmed the codebase using C++, Python and ROS2 for an Automated Cook.
+  job: Software Engineer (Lead) - Intern
+  desc: Designed a ROS2 based distributed software architecture, programmed the codebase using C++, Python for the company's automated cook - Julia with a Qt5 based display application and an extensible Flask-based Web REST API for third-party devices.
   city: Bangalore
 
 - years: July 2017 - Sept 2017
@@ -116,7 +116,7 @@ references:
 # Settings
 filetype: Resume
 mainfont: Source Sans Pro
-fontsize: 10pt
+fontsize: 2pt
 lang: en-US
 geometry: a4paper, left=35mm, right=35mm, top=10mm, bottom=17mm
 ---
