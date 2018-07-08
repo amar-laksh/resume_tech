@@ -149,9 +149,32 @@ $endfor$
 $endif$
 % \vfill
 
+
+% WORK EXPERIENCE
+%-----------------------------
+$if(experience)$
+\section*{Work Experience}
+\vspace{-19pt}
+\rule{15cm}{0.04cm}%
+\noindent
+$for(experience)$
+
+	\note{$experience.years$}
+	% \emph{$experience.job$}\\
+	\underline{\textsc {$experience.job$}}: {\small \it{$experience.employer$} ($experience.city$)}
+	\begin{itemize}
+			$for(experience.desc)$
+		\item $experience.desc$
+			$endfor$
+	\end{itemize}
+$endfor$
+$endif$
+
+% PUBLICATIONS
+%----------------------------
 $if(publications)$
 \section*{Publications}
-\vspace{-15pt}
+\vspace{-19pt}
 \rule{15cm}{0.04cm}%
 \noindent
 $for(publications)$
@@ -168,74 +191,54 @@ $for(publications)$
 $endfor$
 $endif$
 
-% WORK EXPERIENCE
-%-----------------------------
-$if(experience)$
-\section*{Work Experience}
-\vspace{-17pt}
-\rule{15cm}{0.04cm}%
-\noindent
-$for(experience)$
-
-	\note{$experience.years$}
-	% \emph{$experience.job$}\\
-	\underline{\textsc {$experience.job$}}: {\small \it{$experience.employer$} ($experience.city$)}
-	\begin{itemize}
-			$for(experience.desc)$
-		\item $experience.desc$
-			$endfor$
-	\end{itemize}
-$endfor$
-$endif$
-
 
 % \vfill
 \vspace{2pt}
 
 \begin{multicols}{2}
 
-	% EDUCATION
-	%----------------------------
-	$if(education)$
-	\section*{Education}
-\vspace{-15pt}
+% EDUCATION
+%----------------------------
+$if(education)$
+\section*{Education}
+\vspace{-19pt}
 \rule{15cm}{0.04cm}%
-	$for(education)$
-	\noindent
-	\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$} - {\scriptsize $education.year$} \\
-	\emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.1cm]
-	$endfor$
-	$endif$
+$for(education)$
+\noindent
+\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$} - {\scriptsize $education.year$} \\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.1cm]
+$endfor$
+$endif$
 
-	%	\vfill\null
-	%	\columnbreak
+%	\vfill\null
+%	\columnbreak
 
-	% ACHIEVEMENTS
-	%-----------------------------
+% ACHIEVEMENTS
+%-----------------------------
 
-	$if(achievements)$
-	\section*{Achievements}
-	\noindent
-	$for(achievements)$
-	\textbf{$achievements.award$} - {\scriptsize $achievements.years$}\\
-	\emph{$achievements.desc$}\\\\
-	$endfor$
-	\columnbreak
-	$endif$
+$if(achievements)$
+\section*{Achievements}
+\noindent
+$for(achievements)$
+\textbf{$achievements.award$} - {\scriptsize $achievements.years$}\\
+\emph{$achievements.desc$}\\\\
+$endfor$
+\columnbreak
+$endif$
 
-	% REFERENCES
-	%----------------------------
+% REFERENCES
+%----------------------------
 
-	$if(references)$
-	\section*{References}
-	\noindent
-	$for(references)$
-	\emph{$references.name$}\\
-	{$references.organization$}\\
-	{$references.designation$}\\
-	{$references.contact$}\\
-	$endfor$
-	$endif$
+$if(references)$
+\section*{References}
+\noindent
+$for(references)$
+\emph{$references.name$}\\
+{$references.organization$}\\
+{$references.designation$}\\
+{$references.contact$}\\
+$endfor$
+$endif$
 
 
 
