@@ -79,16 +79,24 @@ publications:
 
 
 experience:
-- years: Dec 2017 - Present
+- years: Dec 2017 - July 2018
   employer: Nymble Labs
   job: Software Engineer (Lead) - Intern
-  desc: Designed a ROS2 based distributed software architecture, programmed the codebase using C++, Python for the company's automated cook - Julia with a Qt5 based display application and an extensible Flask-based Web REST API for third-party devices.
+  desc:
+      - Designed a ROS2 based distributed software architecture of the system
+      - Designed an extensible Flask-based Web REST API for third-party devices.
+      - Designed coding standards and setup guidelines.
+      - Wrote the initial iteration of the software architecture in C++ 14.
+      - Wrote a Qt5 based display application for the onboard display.
   city: Bangalore
 
 - years: July 2017 - Sept 2017
   employer: Apogee Tech Global Inc.
   job: Junior Developer (Linux) - Intern
-  desc: Developed a complete, cross-platform React-based Anti-virus and Anti-malware suite.
+  desc:
+      - Designed a cross-platform architecture for the Internet Security Suite
+      - Implemented the application on Windows, Mac, & Linux using Electron, React and Redux
+      - Created the backend functionalites using Python, Bash, and Ruby.
   city: Bangalore
 
 
