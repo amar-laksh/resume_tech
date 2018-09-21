@@ -33,6 +33,7 @@ $endif$
 \usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
+\usepackage{fontmfizz}
 \usepackage{fontawesome}
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
@@ -137,7 +138,7 @@ $if(projects)$
 \noindent
 $for(projects)$
 
-\note{$projects.language$}
+\note{\Huge \MF \mf$projects.language$}
 
 \underline {\textsc {$projects.project$} } : $if(projects.url)$ {\small \it {\href{http://$projects.url$}{$projects.url$}} $endif$
 
@@ -163,7 +164,6 @@ $if(experience)$
 $for(experience)$
 
 	\note{$experience.years$}
-	% \emph{$experience.job$}\\
 	\underline{\textsc {$experience.job$}}: {\small \it{$experience.employer$} ($experience.city$)}
 	\begin{itemize}
 			$for(experience.desc)$
@@ -193,6 +193,47 @@ $for(publications)$
 	\item $publications.desc$
 		$endfor$
 \end{itemize}
+$endfor$
+$endif$
+
+% POSITION OF RESPONSIBILITY
+%-----------------------------
+$if(position_of_responsibility)$
+\section*{Positions Of Responsibility}
+\vspace{-19pt}
+\rule{15cm}{0.04cm}%
+\noindent
+$for(position_of_responsibility)$
+	\note{$position_of_responsibility.years$}
+	\underline{\textsc {$position_of_responsibility.job$}}: {\small \it{$position_of_responsibility.employer$}
+	\begin{itemize}
+			$for(position_of_responsibility.desc)$
+		\item $position_of_responsibility.desc$
+			\vspace{2pt}
+			$endfor$
+	\end{itemize}
+\vspace{10pt}
+$endfor$
+$endif$
+
+
+% SKILLS
+%-----------------------------
+$if(skills)$
+\section*{Technology Skills Acquired}
+\vspace{-19pt}
+\rule{15cm}{0.04cm}%
+\noindent
+$for(skills)$
+	\note{$skills.years$}
+	\underline{\textsc {$skills.section$}}:
+	\newline
+		$for(skills.desc)$
+	{\Large \MF \mf$skills.desc$}
+		\hspace {20pt}
+		$endfor$
+	\newline
+\vspace{10pt}
 $endfor$
 $endif$
 

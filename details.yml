@@ -22,7 +22,7 @@ quote: 'A Chemical Computer computing on Digital Computers'
 # Sections
 
 projects:
-- language: C/ASM
+- language: C
   project: fOS - Made to be Open
   url: github.com/amar-laksh/fOS
   desc:
@@ -37,27 +37,27 @@ projects:
           - An Esoteric, Interpreted python-built language built entirely with regular expressions.
           - Designed to introduce non-technical people to programming.
 
-- language: JavaScript
+- language: JavascriptAlt
   project: Replaycer
   url: addons.mozilla.org/en-US/firefox/addon/replaycer
   desc:
          - A fun Browser Add-on to replace content on the web.
          - Able to replace live content like twitter feeds etc.
 
-- language: C++
+- language: Cplusplus
   project: Cache patch (Core), Mozilla Contribution
   url: git log | grep amar on codebase
   desc:
           - Worked on patching cache entries that expire immediately in the Cache core of the Mozilla codebase.
           - Affects all Mozilla programs including Firefox and Thunderbird.
 
-- language: Python/Rust
+- language: Python
   project: FocusTV
   url: github.com/amar-laksh/focustv
   desc:
           - An extremely responsive face detection system which automatically pauses Media(YouTube and VLC Media Player) when you aren't looking.
 
-- language: Bash/Python
+- language: Python
   project: TryingToKnowYouBetter
   url: github.com/amar-laksh/TryinToKnowYouBetter
   desc:
@@ -79,15 +79,23 @@ publications:
 
 
 experience:
+- years: Sept 2018 - Present
+  employer: Nymble Labs
+  job: Systems Engineer (Lead)
+  desc:
+      - Revamping the entire software architecture to produce reliable, clean OOP code.
+      - Implementing the next iteration of the product using C++ 14, ROS2 and Qt5.
+  city: Bangalore
+
 - years: Dec 2017 - July 2018
   employer: Nymble Labs
-  job: Software Engineer (Lead) - Intern
+  job: Software Engineer - Intern
   desc:
       - Designed a ROS2 based distributed software architecture of the system
       - Designed an extensible Flask-based Web REST API for third-party devices.
       - Designed coding standards and setup guidelines.
       - Wrote the initial iteration of the software architecture in C++ 14.
-      - Wrote a Qt5 based display application for the onboard display.
+      - Wrote a Qt5 based display application for the on-board display.
   city: Bangalore
 
 - years: July 2017 - Sept 2017
@@ -98,6 +106,64 @@ experience:
       - Implemented the application on Windows, Mac, & Linux using Electron, React and Redux
       - Created the backend functionalites using Python, Bash, and Ruby.
   city: Bangalore
+
+
+position_of_responsibility:
+- years: 2014 - 2017
+  employer: St. Xaviers College, Mumbai - Autonomous
+  job: Class Representative
+  desc:
+      - Worked to organize events like seminars and workshops for the BSc. I.T. batch.
+
+
+- years: 2015
+  employer: St. Xaviers College, Mumbai - Autonomous
+  job: Public Relations Volunteer - Xenith
+  desc:
+      - Worked on coordinating and organizing of Public Relations at different colleges for the IT Department Festival.
+- years: 2014
+  employer: St. Xaviers College, Mumbai - Autonomous
+  job: Founding Core Member of the IT Club
+  desc:
+      - Worked on designing and ideation of the IT Department Festival.
+
+skills:
+- section: Programming Languages
+  desc:
+      - Python
+      - C
+      - Cplusplus
+      - Rust
+      - JavaBold
+      - JavascriptAlt
+      - Csharp
+      - ScriptAlt
+
+- section: Operating Systems & Distributions
+  desc:
+      - Archlinux
+      - Centos
+      - Debian
+      - Fedora
+      - Raspberrypi
+      - Suse
+      - Ubuntu
+
+- section: Applications & Frameworks
+  desc:
+      - Apache
+      - Docker
+      - NginxAlt
+      - Aws
+      - Spring
+      - Reactjs
+
+- section: Databases
+  desc:
+      - Redis
+      - MysqlAlt
+      - OracleAlt
+      - Mssql
 
 
 education:
