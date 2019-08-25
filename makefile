@@ -7,4 +7,4 @@ resume.pdf : $(src)
 
 .PHONY: clean
 clean :
-	rm output.pdf
+	rm resume.pdf
