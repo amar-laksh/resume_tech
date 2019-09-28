@@ -3,7 +3,7 @@
 name: Amar Lakshya
 suffix:
 
-phone: "+91 8840724077"
+phone: "+44 7873 957151"
 
 github: amar-laksh
 blog: amar-laksh.github.io
@@ -12,10 +12,9 @@ emailsuffix: xaviers.edu.in
 
 
 address:
-- 1006, Pavan Enclave
-- Indiranagar, Bangalore
-- India - 560008
-
+- Flat 20
+- Jarratt Hall, Dale Road
+- Birmingham, UK - B29 6FQ
 
 quote: 'A Chemical Computer computing on Digital Computers'
 
@@ -65,6 +64,11 @@ projects:
 
 
 publications:
+- year: 2019
+  project: CompTIA Security+ Certification
+  url: https://www.youracclaim.com/badges/3ed437c4-0623-4e26-bdc7-4b9c58fc8bab
+  desc: Earners of the CompTIA Security+ certification have the knowledge and skills necessary to perform core security functions required of any cybersecurity role.
+
 - year: 2015
   project: Crossed & Knotted
   url: amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
@@ -167,6 +171,10 @@ skills:
 
 
 education:
+- year: 2019-2020
+  degree: Msc. Cyber Security
+  institute: University Of Birmingham
+  city: Birmingham, UK
 - year: 2014-2017
   degree: BSc. I.T.
   institute: St. Xaviers College, Mumbai - Autonomous

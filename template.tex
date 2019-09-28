@@ -178,7 +178,7 @@ $endif$
 % PUBLICATIONS
 %----------------------------
 $if(publications)$
-\section*{Publications}
+\section*{Publications \& Certifications}
 \vspace{-19pt}
 \rule{15cm}{0.04cm}%
 \noindent
@@ -187,12 +187,13 @@ $for(publications)$
 \note{$publications.year$}
 
 \underline{\textsc {$publications.project$} }: $if(publications.url)$ {\small \it {\href{http://$publications.url$}{$publications.url$}} $endif$
-
+$if(publications.desc)$
 \begin{itemize}
-		$for(publications.desc)$
-	\item $publications.desc$
-		$endfor$
+	$for(publications.desc)$
+		\item $publications.desc$
+	$endfor$
 \end{itemize}
+$endif$
 $endfor$
 $endif$
 
@@ -251,8 +252,9 @@ $if(education)$
 \rule{15cm}{0.04cm}%
 $for(education)$
 \noindent
-\textbf {$if(education.degree)$ $education.degree$$endif$, $if(education.marks)$ $education.marks$} - {\scriptsize $education.year$} \\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$ $endif$\\[.1cm]
+\textbf {$if(education.degree)$ $education.degree$$endif$,
+	$if(education.marks)$ $education.marks$$endif$} - {\scriptsize $education.year$} \\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.1cm]
 $endfor$
 $endif$
 
@@ -274,7 +276,7 @@ $endif$
 
 % REFERENCES
 %----------------------------
-
+\columnbreak
 $if(references)$
 \section*{References}
 \noindent
