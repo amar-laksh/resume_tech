@@ -197,7 +197,7 @@ references:
 
 # Settings
 filetype: Resume
-mainfont: SourceSansPro-RegularIt.otf
+mainfont: SourceSansPro-Regular.otf
 fontsize: 2pt
 lang: en-GB
 geometry: a4paper, left=35mm, right=35mm, top=10mm, bottom=17mm
