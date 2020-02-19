@@ -1,204 +1,191 @@
 ---
-# Personal details
-name: Amar Lakshya
+name: 'Amar Lakshya'
 suffix:
-
-phone: "+44 7873 957151"
-
-github: github.com/amar-laksh
+phone: '+44 7873 957151'
+github: amar-laksh
 blog: amar-laksh.github.io
 emailprefix: amar.lakshya
 emailsuffix: xaviers.edu.in
-
-
 address:
-- Flat 20
-- Jarratt Hall, Dale Road
-- Birmingham, UK - B29 6FQ
-
+    - 'Flat 20'
+    - 'Jarratt Hall, Dale Road'
+    - 'Birmingham, UK - B29 6FQ'
 quote: 'A Chemical Computer computing on Digital Computers'
-
-# Sections
-
 projects:
-- language: C
-  project: fOS - Made to be Open
-  url: github.com/amar-laksh/fOS
-  desc:
-          - A Monolithic UNIX-like Kernel for the x86 and ARM (Raspberry Pi) platforms.
-          - ELF Parsing(with kernel parsing), PCI, Serial (ARM), Western Notes for PC Beeper and System Calls.
-          - Fully Functional Support for GPIO Pins (ARM) wrapped as Arduino-compatible functions.
-
-- language: Python
-  project: Vitae
-  url: github.com/amar-laksh/vitae
-  desc:
-          - An Esoteric, Interpreted python-built language built entirely with regular expressions.
-          - Designed to introduce non-technical people to programming.
-
-- language: JavascriptAlt
-  project: Replaycer
-  url: addons.mozilla.org/en-US/firefox/addon/replaycer
-  desc:
-         - A fun Browser Add-on to replace content on the web.
-         - Able to replace live content like twitter feeds etc.
-
-- language: Cplusplus
-  project: Cache patch (Core), Mozilla Contribution
-  url: git log | grep amar on codebase
-  desc:
-          - Worked on patching cache entries that expire immediately in the Cache core of the Mozilla codebase.
-          - Affects all Mozilla programs including Firefox and Thunderbird.
-
-- language: Python
-  project: FocusTV
-  url: github.com/amar-laksh/focustv
-  desc:
-          - An extremely responsive face detection system which automatically pauses Media(YouTube and VLC Media Player) when you aren't looking.
-
-- language: Python
-  project: TryingToKnowYouBetter
-  url: github.com/amar-laksh/TryinToKnowYouBetter
-  desc:
-          - The Election Commission's website leaks data that can be analyzed to effectively locate all registered voters.
-
-
+    -
+        language: C
+        project: 'fOS - Made to be Open'
+        url: github.com/amar-laksh/fOS
+        desc:
+            - 'A Monolithic UNIX-like Kernel for the x86 and ARM (Raspberry Pi) platforms.'
+            - 'ELF Parsing(with kernel parsing), PCI, Serial (ARM), Western Notes for PC Beeper and System Calls.'
+            - 'Fully Functional Support for GPIO Pins (ARM) wrapped as Arduino-compatible functions.'
+    -
+        language: Python
+        project: Vitae
+        url: github.com/amar-laksh/vitae
+        desc:
+            - 'An Esoteric, Interpreted python-built language built entirely with regular expressions.'
+            - 'Designed to introduce non-technical people to programming.'
+    -
+        language: JavascriptAlt
+        project: Replaycer
+        url: addons.mozilla.org/en-US/firefox/addon/replaycer
+        desc:
+            - 'A fun Browser Add-on to replace content on the web.'
+            - 'Able to replace live content like twitter feeds etc.'
+    -
+        language: Cplusplus
+        project: 'Cache patch (Core), Mozilla Contribution'
+        url: 'git log | grep amar on codebase'
+        desc:
+            - 'Worked on patching cache entries that expire immediately in the Cache core of Mozilla codebase.'
+            - 'Affects all Mozilla programs including Firefox and Thunderbird.'
+    -
+        language: Python
+        project: FocusTV
+        url: github.com/amar-laksh/focustv
+        desc:
+            - 'An extremely responsive face detection system which automatically pauses Media(YouTube and VLC Media Player) when you aren''t looking.'
+    -
+        language: Python
+        project: TryingToKnowYouBetter
+        url: github.com/amar-laksh/TryinToKnowYouBetter
+        desc:
+            - 'The Election Commission''s website leaks data that can be analyzed to effectively locate all registered voters.'
 publications:
-- year: 2019
-  project: CompTIA Security+ Certification
-  url: https://www.youracclaim.com/badges/3ed437c4-0623-4e26-bdc7-4b9c58fc8bab
-  desc: Earners of the CompTIA Security+ certification have the knowledge and skills necessary to perform core security functions required of any cybersecurity role.
-
-- year: 2015
-  project: Crossed & Knotted
-  url: amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
-  desc:
-          - Co-Author of Limca Book of Records winning - India's First Composite Novel - written in collaboration with 12 Authors.
-
-- year: 2017
-  project: Beyond Good and Evil
-  url: amar-laksh.github.io/2017/06/17/beyond-good-and-evil.html
-  desc:
-          - A paper focusing on the futility of recognizing Good and Evil as deterministic forces in the world.
-
-
+    -
+        year: 2019
+        project: 'CompTIA Security+ Certification'
+        url: 'https://www.youracclaim.com/badges/3ed437c4-0623-4e26-bdc7-4b9c58fc8bab'
+        desc: 'Earners of the CompTIA Security+ certification have the knowledge and skills necessary to perform core security functions required of any cybersecurity role.'
+    -
+        year: 2015
+        project: 'Crossed & Knotted'
+        url: amazon.in/Crossed-Knotted-Various-Authors/dp/8192997529
+        desc:
+            - 'Co-Author of Limca Book of Records winning - India''s First Composite Novel - written in collaboration with 12 Authors.'
+    -
+        year: 2017
+        project: 'Beyond Good and Evil'
+        url: amar-laksh.github.io/2017/06/17/beyond-good-and-evil.html
+        desc:
+            - 'A paper focusing on the futility of recognizing Good and Evil as deterministic forces in the world.'
 experience:
-- years: Sept 2018 - Present
-  employer: Nymble Labs
-  job: Systems Engineer (Lead)
-  desc:
-      - Revamping the entire software architecture to produce reliable, clean OOP code.
-      - Implementing the next iteration of the product using C++ 14, ROS2 and Qt5.
-  city: Bangalore
-
-- years: Dec 2017 - July 2018
-  employer: Nymble Labs
-  job: Software Engineer - Intern
-  desc:
-      - Designed a ROS2 based distributed software architecture of the system
-      - Designed an extensible Flask-based Web REST API for third-party devices.
-      - Designed coding standards and setup guidelines.
-      - Wrote the initial iteration of the software architecture in C++ 14.
-      - Wrote a Qt5 based display application for the on-board display.
-  city: Bangalore
-
-- years: July 2017 - Sept 2017
-  employer: Apogee Tech Global Inc.
-  job: Junior Developer (Linux) - Intern
-  desc:
-      - Designed a cross-platform architecture for the Internet Security Suite
-      - Implemented the application on Windows, Mac, & Linux using Electron, React and Redux
-      - Created the backend functionalites using Python, Bash, and Ruby.
-  city: Bangalore
-
-
+    -
+        years: 'Sept 2018 - Present'
+        employer: 'Nymble Labs'
+        job: 'Systems Engineer (Lead)'
+        desc:
+            - 'Revamping the entire software architecture to produce reliable, clean OOP code.'
+            - 'Implementing the next iteration of the product using C++ 14, ROS2 and Qt5.'
+        city: Bangalore
+    -
+        years: 'Dec 2017 - July 2018'
+        employer: 'Nymble Labs'
+        job: 'Software Engineer - Intern'
+        desc:
+            - 'Designed a ROS2 based distributed software architecture of the system'
+            - 'Designed an extensible Flask-based Web REST API for third-party devices.'
+            - 'Designed coding standards and setup guidelines.'
+            - 'Wrote the initial iteration of the software architecture in C++ 14.'
+            - 'Wrote a Qt5 based display application for the on-board display.'
+        city: Bangalore
+    -
+        years: 'July 2017 - Sept 2017'
+        employer: 'Apogee Tech Global Inc.'
+        job: 'Junior Developer (Linux) - Intern'
+        desc:
+            - 'Designed a cross-platform architecture for the Internet Security Suite'
+            - 'Implemented the application on Windows, Mac, & Linux using Electron, React and Redux'
+            - 'Created the backend functionalites using Python, Bash, and Ruby.'
+        city: Bangalore
 position_of_responsibility:
-- years: 2014 - 2017
-  employer: St. Xaviers College, Mumbai - Autonomous
-  job: Class Representative
-  desc:
-      - Worked to organize events like seminars and workshops for the BSc. I.T. batch.
-
-
-- years: 2015
-  employer: St. Xaviers College, Mumbai - Autonomous
-  job: Public Relations Volunteer - Xenith
-  desc:
-      - Worked on coordinating and organizing of Public Relations at different colleges for the IT Department Festival.
-- years: 2014
-  employer: St. Xaviers College, Mumbai - Autonomous
-  job: Founding Core Member of the IT Club
-  desc:
-      - Worked on designing and ideation of the IT Department Festival.
-
+    -
+        years: '2014 - 2017'
+        employer: 'St. Xaviers College, Mumbai - Autonomous'
+        job: 'Class Representative'
+        desc:
+            - 'Worked to organize events like seminars and workshops for the BSc. I.T. batch.'
+    -
+        years: 2015
+        employer: 'St. Xaviers College, Mumbai - Autonomous'
+        job: 'Public Relations Volunteer - Xenith'
+        desc:
+            - 'Worked on coordinating and organizing of Public Relations at different colleges for the IT Department Festival.'
+    -
+        years: 2014
+        employer: 'St. Xaviers College, Mumbai - Autonomous'
+        job: 'Founding Core Member of the IT Club'
+        desc:
+            - 'Worked on designing and ideation of the IT Department Festival.'
 skills:
-- section: Programming Languages
-  desc:
-      - Python
-      - C
-      - Cplusplus
-      - Rust
-      - JavaBold
-      - JavascriptAlt
-      - Csharp
-      - ScriptAlt
-
-- section: Operating Systems & Distributions
-  desc:
-      - Archlinux
-      - Centos
-      - Debian
-      - Fedora
-      - Raspberrypi
-      - Suse
-      - Ubuntu
-
-- section: Applications & Frameworks
-  desc:
-      - Apache
-      - Docker
-      - NginxAlt
-      - Aws
-      - Spring
-      - Reactjs
-
-- section: Databases
-  desc:
-      - Redis
-      - MysqlAlt
-      - OracleAlt
-      - Mssql
-
-
+    -
+        section: 'Programming Languages'
+        desc:
+            - Python
+            - C
+            - Cplusplus
+            - Rust
+            - JavaBold
+            - JavascriptAlt
+            - Csharp
+            - ScriptAlt
+    -
+        section: 'Operating Systems & Distributions'
+        desc:
+            - Archlinux
+            - Centos
+            - Debian
+            - Fedora
+            - Raspberrypi
+            - Suse
+            - Ubuntu
+    -
+        section: 'Applications & Frameworks'
+        desc:
+            - Apache
+            - Docker
+            - NginxAlt
+            - Aws
+            - Spring
+            - Reactjs
+    -
+        section: Databases
+        desc:
+            - Redis
+            - MysqlAlt
+            - OracleAlt
+            - Mssql
 education:
-- year: 2019-2020
-  degree: Msc. Cyber Security
-  institute: University Of Birmingham
-  city: Birmingham, UK
-- year: 2014-2017
-  degree: BSc. I.T.
-  institute: St. Xaviers College, Mumbai - Autonomous
-  marks: 3.26/4.00
-- year: 2013-2014
-  degree: \uppercase\expandafter{\romannumeral 12}\textsuperscript{th}
-  institute: St. Peters' College, Agra
-  marks: 81.00%
-- year: 2011-2012
-  degree: \uppercase\expandafter{\romannumeral 10}\textsuperscript{th}
-  institute: St. Peters' College, Agra
-  marks: 86.00%
-
+    -
+        year: 2019-2020
+        degree: 'Msc. Cyber Security'
+        institute: 'University Of Birmingham'
+        city: 'Birmingham, UK'
+    -
+        year: 2014-2017
+        degree: 'BSc. I.T.'
+        institute: 'St. Xaviers College, Mumbai - Autonomous'
+        marks: 3.26/4.00
+    -
+        year: 2013-2014
+        degree: '\uppercase\expandafter{\romannumeral 12}\textsuperscript{th}'
+        institute: 'St. Peters'' College, Agra'
+        marks: 81.00%
+    -
+        year: 2011-2012
+        degree: '\uppercase\expandafter{\romannumeral 10}\textsuperscript{th}'
+        institute: 'St. Peters'' College, Agra'
+        marks: 86.00%
 references:
-        name: Ms. Lydia Fernandes
-        organization: St. Xaviers' College, Mumbai - Autonomous
-        designation: Professor at St. Xaviers' College
-        contact: lydia_fdes@yahoo.co.in,  +91 9930280196
-
-
-# Settings
+    name: 'Ms. Lydia Fernandes'
+    organization: 'St. Xaviers'' College, Mumbai - Autonomous'
+    designation: 'Professor at St. Xaviers'' College'
+    contact: 'lydia_fdes@yahoo.co.in,  +91 9930280196'
 filetype: Resume
-mainfont: SourceSansPro-Regular.otf
+mainfont: Source Sans Pro
 fontsize: 2pt
 lang: en-GB
-geometry: a4paper, left=35mm, right=35mm, top=10mm, bottom=17mm
+geometry: 'a4paper, left=35mm, right=35mm, top=10mm, bottom=17mm'
 ---
