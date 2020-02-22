@@ -84,7 +84,7 @@
 	%-------------------------------
 	{\Huge $name$}$if(suffix)$,  {\large $suffix$}\\[.2cm]$endif$
 
-	\vspace{2pt}
+	% \vspace{2pt}
 	\begin{multicols}{3}
 		% CONTACT
 		%------------------------------
@@ -94,12 +94,12 @@
 		$if(blog)$
 		\href{http://$blog$}{{\FA \faRss}$blog$}
 		$endif$
-		\vspace{2pt}
+		% \vspace{2pt}
 
 		$if(github)$
 		\href{http://github.com/$github$}{{\FA \faGithub}$github$}
 		$endif$
-		\vspace{2pt}
+		% \vspace{2pt}
 
 		$if(emailprefix)$
 		$if(emailsuffix)$
@@ -117,7 +117,7 @@
 
 	% QUOTE
 	%------------------------------
-	\vspace{1pt}
+	% \vspace{1pt}
 	{\emph{`$quote$`}}
 \end{center}
 
@@ -127,7 +127,7 @@ $if(intro)$
 $intro$
 $endif$
 
-\vspace{5pt}
+% \vspace{5pt}
 % PROJECTS & RESEARCH
 %------------------------------
 
@@ -148,7 +148,7 @@ $for(projects)$
 		\vspace{2pt}
 		$endfor$
 \end{itemize}
-\vspace{10pt}
+% \vspace{10pt}
 $endfor$
 $endif$
 % \vfill
@@ -171,7 +171,7 @@ $for(experience)$
 			\vspace{2pt}
 			$endfor$
 	\end{itemize}
-\vspace{10pt}
+% \vspace{10pt}
 $endfor$
 $endif$
 
@@ -213,7 +213,7 @@ $for(position_of_responsibility)$
 			\vspace{2pt}
 			$endfor$
 	\end{itemize}
-\vspace{10pt}
+% \vspace{10pt}
 $endfor$
 $endif$
 
@@ -234,13 +234,13 @@ $for(skills)$
 		\hspace {20pt}
 		$endfor$
 	\newline
-\vspace{10pt}
+% \vspace{10pt}
 $endfor$
 $endif$
 
 
 % \vfill
-\vspace{2pt}
+% \vspace{2pt}
 
 \begin{multicols}{2}
 
