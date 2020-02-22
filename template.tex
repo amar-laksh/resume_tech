@@ -255,6 +255,15 @@ $for(education)$
 \textbf {$if(education.degree)$ $education.degree$$endif$,
 	$if(education.marks)$ $education.marks$$endif$} - {\scriptsize $education.year$} \\
 \emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.1cm]
+$if(education.modules)$
+Modules taken:
+\begin{itemize}
+	$for(education.modules)$
+		\item $education.modules$
+	$endfor$
+\end{itemize}
+$endif$
+
 $endfor$
 $endif$
 

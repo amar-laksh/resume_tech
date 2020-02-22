@@ -169,21 +169,24 @@ education:
         degree: 'Msc. Cyber Security'
         institute: 'University Of Birmingham'
         city: 'Birmingham, UK'
+        modules:
+                - Cryptography
+                - Intelligent Data Analysis (Extended)
+                - Designing secure systems
+                - Forensics and Malware Analysis
+                - Hardware and Embedded Systems Security
+                - Network security (Extended)
+                - Penetration Testing
+                - Secure programming
+                - Secure system management
+                - Security Research Seminar
+                - Research project
+
     -
         year: 2014-2017
         degree: 'BSc. I.T.'
         institute: 'St. Xaviers College, Mumbai - Autonomous'
         marks: 3.26/4.00
-    -
-        year: 2013-2014
-        degree: '\uppercase\expandafter{\romannumeral 12}\textsuperscript{th}'
-        institute: 'St. Peters'' College, Agra'
-        marks: 81.00%
-    -
-        year: 2011-2012
-        degree: '\uppercase\expandafter{\romannumeral 10}\textsuperscript{th}'
-        institute: 'St. Peters'' College, Agra'
-        marks: 86.00%
 references:
     name: 'Ms. Lydia Fernandes'
     organization: 'St. Xaviers'' College, Mumbai - Autonomous'
