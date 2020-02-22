@@ -197,6 +197,35 @@ $endif$
 $endfor$
 $endif$
 
+% EDUCATION
+%----------------------------
+$if(education)$
+\section*{Education}
+\vspace{-19pt}
+\rule{15cm}{0.04cm}%
+\vspace{-12pt}
+\begin{multicols}{2}
+\noindent
+$for(education)$
+\textbf {$if(education.degree)$ $education.degree$$endif$,
+	$if(education.marks)$ $education.marks$$endif$} - {\scriptsize $education.year$} \\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.1cm]
+$if(education.modules)$
+Modules taken:
+\begin{itemize}
+	$for(education.modules)$
+		\item $education.modules$
+	$endfor$
+\end{itemize}
+$endif$
+% \newline
+\columnbreak
+$endfor$
+$endif$
+
+\end{multicols}
+
+
 % POSITION OF RESPONSIBILITY
 %-----------------------------
 $if(position_of_responsibility)$
@@ -218,6 +247,8 @@ $endfor$
 $endif$
 
 
+\begin{multicols}{2}
+
 % SKILLS
 %-----------------------------
 $if(skills)$
@@ -231,56 +262,11 @@ $for(skills)$
 	\newline
 		$for(skills.desc)$
 	{\Large \MF \mf$skills.desc$}
-		\hspace {20pt}
+		\hspace {2pt}
 		$endfor$
 	\newline
 % \vspace{10pt}
 $endfor$
-$endif$
-
-
-% \vfill
-% \vspace{2pt}
-
-\begin{multicols}{2}
-
-% EDUCATION
-%----------------------------
-$if(education)$
-\section*{Education}
-\vspace{-19pt}
-\rule{15cm}{0.04cm}%
-$for(education)$
-\noindent
-\textbf {$if(education.degree)$ $education.degree$$endif$,
-	$if(education.marks)$ $education.marks$$endif$} - {\scriptsize $education.year$} \\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.1cm]
-$if(education.modules)$
-Modules taken:
-\begin{itemize}
-	$for(education.modules)$
-		\item $education.modules$
-	$endfor$
-\end{itemize}
-$endif$
-
-$endfor$
-$endif$
-
-%	\vfill\null
-%	\columnbreak
-
-% ACHIEVEMENTS
-%-----------------------------
-
-$if(achievements)$
-\section*{Achievements}
-\noindent
-$for(achievements)$
-\textbf{$achievements.award$} - {\scriptsize $achievements.years$}\\
-\emph{$achievements.desc$}\\\\
-$endfor$
-\columnbreak
 $endif$
 
 % REFERENCES
