@@ -172,10 +172,11 @@ education:
         modules:
                 - Cryptography
                 - Intelligent Data Analysis (Extended)
+                - Operating Systems(Extended)
                 - Designing secure systems
                 - Forensics and Malware Analysis
                 - Hardware and Embedded Systems Security
-                - Network security (Extended)
+                - Network Security (Extended)
                 - Penetration Testing
                 - Secure programming
                 - Secure system management
@@ -187,6 +188,23 @@ education:
         degree: 'BSc. I.T.'
         institute: 'St. Xaviers College, Mumbai - Autonomous'
         marks: 3.26/4.00
+        modules:
+                - Applied Mathematics
+                - C++ Programming
+                - Operating Systems
+                - Computer Graphics
+                - Network Security
+                - Artificial Intelligence
+                - E-Commerce
+                - Data Warehousing and Mining
+                - Embedded Systems
+                - Advanced SQL
+                - Advanced Java
+                - C# with ASP.NET
+                - Software Testing
+                - Enterprise and Resource Planning
+                - Research project
+
 references:
     name: 'Ms. Lydia Fernandes'
     organization: 'St. Xaviers'' College, Mumbai - Autonomous'
